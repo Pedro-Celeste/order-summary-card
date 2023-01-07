@@ -2,17 +2,112 @@
 
 body {
     margin: 0;
-    height: 200vh;
+    height: 100vh;
+    font-family: "Red Hat Display";
 
     /* Background properties */
     background-color: hsl(225, 100%, 94%);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-blend-mode:darken;
+    background-blend-mode: darken;
 
 
     /* Flexbox properties */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+main {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    overflow: hidden;
+    max-width: 100%;
+    text-align: center;
+    box-shadow: 0 20px 30px rgba(114, 118, 167, 0.2);
+
+
+    /* Flexbox Properties */
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1 {
+    color: hsl(223, 47%, 23%);
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-top: 2.25rem;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    line-height: 1.5rem;
+    margin-top: 1.25rem;
+    margin-bottom: 2.5rem;
+}
+
+strong {
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+
+
+/* Stylying to specific elements */
+
+#main-text {
+    margin: 0 30px;
+}
+
+#plan-details {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+#music-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+#annual-plan {
+    margin: 0;
+}
+
+#change-button {
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+#payment-button {
+    border: 1px solid hsl(223, 47%, 23%);
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 94%);
+    box-shadow: 0 15px 15px rgba(114, 118, 167, 0.3);
+
+    font-size: 1rem;
+    font-weight: 700;
+    
+    width: 85%;
+    margin-top: 30px;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+#cancel-button {
+    border: none;
+    background-color: transparent;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 2rem;
+}
+
 
 /* All the media queries */
 
@@ -21,6 +116,16 @@ body {
     body {
         background-image: url("../images/pattern-background-mobile.svg");
         background-size: 100%;
+    }
+
+    main {
+        width: 20.5rem;
+
+    }
+
+    #illustration {
+        width: auto;
+        height: 10rem;
     }
 }
 
