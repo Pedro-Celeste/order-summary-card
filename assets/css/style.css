@@ -59,8 +59,9 @@ strong {
 
 /* Stylying to specific elements */
 
-#main-text {
-    margin: 0 30px;
+#illustration {
+    width: 100%;
+    height: auto;
 }
 
 #plan-details {
@@ -76,6 +77,7 @@ strong {
 
 #annual-plan {
     margin: 0;
+    transform: translate(-25px);
 }
 
 #change-button {
@@ -83,6 +85,11 @@ strong {
     font-weight: 700;
     margin-top: 15px;
 }
+
+  #change-button:hover {
+    color: hsl(245, 70%, 61%);
+    text-decoration: none;
+  }
 
 #payment-button {
     border: 1px solid hsl(223, 47%, 23%);
@@ -92,6 +99,7 @@ strong {
 
     font-size: 1rem;
     font-weight: 700;
+    text-decoration: none;
     
     width: 85%;
     margin-top: 30px;
@@ -99,14 +107,26 @@ strong {
     border-radius: 10px;
 }
 
+  #payment-button:hover {
+    background-color: hsl(245, 70%, 61%);
+    border-color: hsl(245, 55%, 52%);
+    font-weight: 900;
+}
+
 #cancel-button {
     border: none;
     background-color: transparent;
     color: hsl(224, 23%, 55%);
     font-weight: 700;
+    text-decoration: none;
     margin-top: 20px;
     margin-bottom: 2rem;
 }
+
+  #cancel-button:hover {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+  }
 
 
 /* All the media queries */
@@ -120,13 +140,10 @@ strong {
 
     main {
         width: 20.5rem;
-
     }
 
-    #illustration {
-        width: auto;
-        height: 10rem;
-    }
+    #main-text { margin: 0 30px; }
+
 }
 
 /* If screen width is 601px or more (standard rem value) */
@@ -135,4 +152,11 @@ strong {
         background-image: url("../images/pattern-background-desktop.svg");
         background-size: 100% 70%;
     }
+
+    main {
+        width: 28.125rem; /* 450px default rem */
+    }
+
+    #main-text { margin: 0 80px; }
+
 }
