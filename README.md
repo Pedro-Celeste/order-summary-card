@@ -60,6 +60,8 @@ Besides that, I also learned how to use `svg` images as background for my webpag
 
 It seems that the book I used to learn HTML and CSS taught me the wrong way of using `ids`. You should always use `classes` for styling and leave `ids` for *JavaScript*.
 
+Images that only have the purpose of decorating a page shouldn't have an alternative text. This makes the audible version of the page cluttered for screen readers.
+
 ### Continued development
 
 Making a responsive webpage takes a lot of work and I feel that I can still improve a lot on this regard.
@@ -67,6 +69,7 @@ Making a responsive webpage takes a lot of work and I feel that I can still impr
 ### Useful resources
 
 - [Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) - A useful guide on media queries. It helped me a lot during development.
+- [Decorative images and alternative text](https://www.w3.org/WAI/tutorials/images/decorative/) - A very simple way of making your page more accessible.
 
 ## Author
 
