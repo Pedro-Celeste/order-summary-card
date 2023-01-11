@@ -140,6 +140,7 @@ strong {
 
     main {
         width: 20.5rem;
+        min-width: 320px;
     }
 
     #main-text { margin: 0 30px; }
