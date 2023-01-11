@@ -43,7 +43,7 @@ Users should be able to:
 
 ### What I learned
 
-To make this webpage responsive, I needed a way to make the width of the elements change according to the screen size. This made me learn about **media queries**, which are conditional statemenets that help you to create dynamic rules.
+To make this webpage responsive, I needed a way to make the width of the elements change according to the screen size. This made me learn about `media queries`, which are conditional statements that help you to create dynamic rules.
 
 Here's an example of a simple media query:
 
