@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repository](https://github.com/Pedro-Celeste/order-summary-card)
-- Live Site URL: [Website Preview](https://your-live-site-url.com)
+- Live Site URL: [Website Preview](https://order-summary-card-frontendmentor-murex.vercel.app/)
 
 ## My process
 
