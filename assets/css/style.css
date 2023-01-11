@@ -11,7 +11,6 @@ body {
     background-repeat: no-repeat;
     background-blend-mode: darken;
 
-
     /* Flexbox properties */
     display: flex;
     align-items: center;
@@ -59,39 +58,39 @@ strong {
 
 /* Stylying to specific elements */
 
-#illustration {
+.illustration {
     width: 100%;
     height: auto;
 }
 
-#plan-details {
+.plan-details {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
 }
 
-#music-icon {
+.music-icon {
     width: 3.5rem;
     height: 3.5rem;
 }
 
-#annual-plan {
+.annual-plan {
     margin: 0;
     transform: translate(-25px);
 }
 
-#change-button {
+.change-button {
     color: hsl(245, 75%, 52%);
     font-weight: 700;
     margin-top: 15px;
 }
 
-  #change-button:hover {
+  .change-button:hover {
     color: hsl(245, 70%, 61%);
     text-decoration: none;
   }
 
-#payment-button {
+.payment-button {
     border: 1px solid hsl(223, 47%, 23%);
     background-color: hsl(245, 75%, 52%);
     color: hsl(225, 100%, 94%);
@@ -107,13 +106,13 @@ strong {
     border-radius: 10px;
 }
 
-  #payment-button:hover {
+  .payment-button:hover {
     background-color: hsl(245, 70%, 61%);
     border-color: hsl(245, 55%, 52%);
     font-weight: 900;
 }
 
-#cancel-button {
+.cancel-button {
     border: none;
     background-color: transparent;
     color: hsl(224, 23%, 55%);
@@ -123,7 +122,7 @@ strong {
     margin-bottom: 2rem;
 }
 
-  #cancel-button:hover {
+  .cancel-button:hover {
     color: hsl(223, 47%, 23%);
     font-weight: 900;
   }
@@ -143,7 +142,7 @@ strong {
         min-width: 320px;
     }
 
-    #main-text { margin: 0 30px; }
+    .main-text { margin: 0 30px; }
 
 }
 
@@ -158,6 +157,6 @@ strong {
         width: 28.125rem; /* 450px default rem */
     }
 
-    #main-text { margin: 0 80px; }
+    .main-text { margin: 0 80px; }
 
 }

@@ -56,6 +56,10 @@ Here's an example of a simple media query:
 ```
 Besides that, I also learned how to use `svg` images as background for my webpage.
 
+**Update after feedback**
+
+It seems that the book I used to learn HTML and CSS taught me the wrong way of using `ids`. You should always use `classes` for styling and leave `ids` for *JavaScript*.
+
 ### Continued development
 
 Making a responsive webpage takes a lot of work and I feel that I can still improve a lot on this regard.
